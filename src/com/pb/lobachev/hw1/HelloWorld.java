@@ -1,4 +1,4 @@
-package com.pb.lobachev;
+package com.pb.lobachev.hw1;
 
 public class HelloWorld {
     public static void main(String[] args) {

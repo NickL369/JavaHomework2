@@ -1,0 +1,43 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision c536cc431e864a74351e921f8fe674b47c2c496c)
++++ .gitignore	(revision c536cc431e864a74351e921f8fe674b47c2c496c)
+@@ -0,0 +1,2 @@
++# Project exclude paths
++/out/
+\ No newline at end of file
+Index: JavaHomework.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- JavaHomework.iml	(revision c536cc431e864a74351e921f8fe674b47c2c496c)
++++ JavaHomework.iml	(revision c536cc431e864a74351e921f8fe674b47c2c496c)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/com/pb/lobachev/HelloWorld.java
+===================================================================
+--- src/com/pb/lobachev/HelloWorld.java	(revision c536cc431e864a74351e921f8fe674b47c2c496c)
++++ src/com/pb/lobachev/HelloWorld.java	(revision c536cc431e864a74351e921f8fe674b47c2c496c)
+@@ -0,0 +1,7 @@
++package com.pb.lobachev;
++
++public class HelloWorld {
++    public static void main(String[] args) {
++        System.out.println("Hello World");
++    }
++}
