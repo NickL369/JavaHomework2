@@ -11,7 +11,15 @@ public class AnagramVariant2 {
         String text11 = text1.toLowerCase().replaceAll("[^a-zа-я]", "");
         String text22 = text2.toLowerCase().replaceAll("[^a-zа-я]", "");
         boolean resanagramm2 = Anagramm2 ( text11,text22);
-        System.out.println(resanagramm2+" А");
+        String res = "";
+        if(resanagramm2 == true){
+            res = "Это анограмма";
+        }else if(resanagramm2 == false){
+            res = "Это НЕ анограмма";
+        }else{
+            res = "ERROR что то пошло не так, обратитесь в тех поддержку";
+        }
+        System.out.println(res);
 
     }
 
