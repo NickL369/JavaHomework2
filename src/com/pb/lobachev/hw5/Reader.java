@@ -16,8 +16,7 @@ public class Reader {
         this.phonenumber = phonenumber;
     }
 
-    public Reader() {
-    }
+
 
     public String getFio() {
         return fio;
