@@ -23,7 +23,9 @@ public class Library {
         reader1.takeBook("2");
         reader2.takeBook("Паттерны проектирования");
         reader2.takeBook("Паттерны проектирования", "Spring в действии","Рефакторинг: улучшение существующего");
-        reader3.takeBook(book1, book2,book3);
+            reader3.takeBook(book1);
+
+            reader3.takeBook(book1, book2,book3);
 
         reader1.returnBook("1");
         reader2.returnBook("Паттерны проектирования");
