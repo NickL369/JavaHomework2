@@ -21,12 +21,19 @@ public class Library {
 
 
         reader1.takeBook("2");
+        reader2.takeBook("Паттерны проектирования");
         reader2.takeBook("Паттерны проектирования", "Spring в действии","Рефакторинг: улучшение существующего");
         reader3.takeBook(book1, book2,book3);
 
         reader1.returnBook("1");
         reader2.returnBook("Паттерны проектирования");
+        reader2.returnBook("Рефакторинг: улучшение существующего","Паттерны проектирования","Spring в действии" );
         reader3.returnBook(book3);
+        reader3.returnBook(book1,book2,book3);
+
+
+
+
 
 
 
@@ -35,6 +42,7 @@ public class Library {
 
         private static void printBooks(Book[] books) {
         System.out.println("Книги:");
+
         for (Book book : books) {
             System.out.println(book.getInfo());
         }

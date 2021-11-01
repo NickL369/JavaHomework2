@@ -43,6 +43,8 @@ public class Book {
         this.yearpublishing = yearpublishing;
     }
 
+
+
     public String getInfo() {
         String result;
         result = "Название: "+name + "   Автор: "+ author+"Год издания "+yearpublishing;

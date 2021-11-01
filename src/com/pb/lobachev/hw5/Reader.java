@@ -85,7 +85,8 @@ public class Reader {
         System.out.println();
     }
 
-    public void returnBook(String librarycard) {
+    public void returnBook(String librarycard)
+    {
         System.out.println(this.fio + " вернул " + librarycard + " книги:");
     }
 
