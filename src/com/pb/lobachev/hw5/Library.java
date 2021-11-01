@@ -5,12 +5,19 @@ public class Library {
         Reader reader1 = new Reader("Фред Дерст", "1", "LimpBizkit", "20.08.1970", "101");
         Reader reader2 = new Reader("Джекоби Шэддикс", "2", "PapaRoach", "28.07.1976", "102");
         Reader reader3 = new Reader("Тревор МакНивен", "3", "ThousandFootKrutch", "17.07.1978", "103");
+
         Reader[] readers = {reader1, reader2, reader3};
 
         Book book1 = new Book("Spring в действии", "Крейг Уоллс","2008");
         Book book2 = new Book("Паттерны проектирования", "Кэти Сьерра и Элизабет Фримен","2004");
         Book book3 = new Book("Рефакторинг: улучшение существующего", " Мартин Фаулер","2003");
+
         Book[] books = {book1, book2, book3};
+
+
+
+        printReaders(readers);
+        printBooks(books);
 
 
         reader1.takeBook("2");
@@ -22,8 +29,6 @@ public class Library {
         reader3.returnBook(book3);
 
 
-            printReaders(readers);
-            printBooks(books);
 
         }
 
