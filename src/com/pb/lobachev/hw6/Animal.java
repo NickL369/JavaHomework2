@@ -13,7 +13,7 @@ public class Animal {
 
 
     public Animal(String location,String food) {
-        this.food = food;
+          this.food = food;
           this.location = location;
     }
 
@@ -24,17 +24,7 @@ public class Animal {
     public  void sleep(){
     };
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public static void sleep(Animal animal){
-        System.out.println(animal + " - животное спит");
-    };
 
 
 

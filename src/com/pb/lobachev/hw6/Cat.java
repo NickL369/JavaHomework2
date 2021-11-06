@@ -5,6 +5,8 @@ import java.util.Objects;
 public class Cat extends Animal{
    // String name = "ca1";
     String weight = "999";
+    //String food = "мои нервы";
+
 
     public Cat(String location, String food) {
         super(location, food);
@@ -16,7 +18,7 @@ public class Cat extends Animal{
     }
     @Override
     public void eat(){
-        System.out.println("это кот");
+        System.out.println("мои нервы");
     }
     @Override
     public void sleep(){

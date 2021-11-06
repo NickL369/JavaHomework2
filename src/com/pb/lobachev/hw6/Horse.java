@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Horse extends Animal {
    // String name = "horse1";
     String weight = "136";
+    String food = "овес";
 
     public Horse(String location, String food) {
         super(location, food);
@@ -16,7 +17,7 @@ public class Horse extends Animal {
     }
     @Override
     public void eat(){
-        System.out.println("это лошадь");
+        System.out.println("овес");
     }
 
     @Override
@@ -37,8 +38,12 @@ public class Horse extends Animal {
         return  Objects.equals(location, horse.location)&& Objects.equals(food, horse.food);
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 
-   // public Horse(String name) {
+// public Horse(String name) {
      //   super(name);
    // }
 }
