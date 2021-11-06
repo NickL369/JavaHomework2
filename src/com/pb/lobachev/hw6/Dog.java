@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Dog extends Animal {
     // String name = "dog1";
     String weight = "9";
-    String food = "собачий корм";
+//    String food = "собачий корм";
 
     public Dog(String location,String food) {
         super(location,food );
@@ -38,8 +38,8 @@ public class Dog extends Animal {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Cat cat = (Cat) o;
-        return Objects.equals(location, cat.location) && Objects.equals(food, cat.food);
+        Dog dog = (Dog) o;
+        return Objects.equals(location, dog.location) && Objects.equals(food, dog.food);
     }
 
 

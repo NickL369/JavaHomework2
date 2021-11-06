@@ -34,8 +34,8 @@ public class Cat extends Animal{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Dog dog = (Dog) o;
-        return  Objects.equals(location, dog.location)&& Objects.equals(food, dog.food);
+        Cat cat = (Cat) o;
+        return  Objects.equals(location, cat.location)&& Objects.equals(food, cat.food);
     }
 
 

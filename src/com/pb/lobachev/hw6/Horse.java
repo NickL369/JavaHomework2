@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Horse extends Animal {
    // String name = "horse1";
     String weight = "136";
-    String food = "овес";
+    //String food = "овес";
 
     public Horse(String location, String food) {
         super(location, food);
